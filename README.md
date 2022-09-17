@@ -16,7 +16,6 @@ cloud_directory = '/content/gdrive/MyDrive/sample_data/'  # 국민건강보험�
 os.listdir(cloud_directory)
 
 data = pd.read_csv('{}/data.csv'.format(cloud_directory))
-data
 
 
 관련 자료 준비되는대로 올려주시면 검토하겠습니다.
