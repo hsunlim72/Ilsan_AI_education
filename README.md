@@ -8,6 +8,7 @@
 4. 교육 자료 및 실습 코드 올리기
 (실습 코드는 구글 코랩으로 작성하고 "GIthub로 사본저장"로 한 후 "Colaboratory 링크 추가"하면 Open in colab 아이콘 추가됨)
 5. 국민건강보험공단 자료(무작위 샘플 10%)는 Google drive에 올리신 후 아래 내용으로 연동하세요
+
 import os
 from google.colab import drive  
 drive.mount('/content/gdrive/')  
