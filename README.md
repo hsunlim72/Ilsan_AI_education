@@ -1,2 +1,2 @@
-# temp
-dfkdnfdlak
+# 일산병원 의료인공지능(A.I.) 교육
+
