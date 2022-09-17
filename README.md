@@ -13,6 +13,7 @@ import os
 from google.colab import drive  
 drive.mount('/content/gdrive/')  
 cloud_directory = '/content/gdrive/MyDrive/sample_data/'  # 국민건강보험공단 자료(무작위 샘플 10%) 위치
+
 os.listdir(cloud_directory)
 
 data = pd.read_csv('{}/data.csv'.format(cloud_directory))
