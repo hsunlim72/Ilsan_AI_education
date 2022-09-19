@@ -10,7 +10,11 @@
 5. 국민건강보험공단 자료(무작위 샘플 10%)는 Google drive에 올리신 후 아래 내용으로 연동하세요
 
 import os
+
+import pandas as pd
+
 from google.colab import drive  
+
 drive.mount('/content/gdrive/')  
 cloud_directory = '/content/gdrive/MyDrive/sample_data/'  # 국민건강보험공단 자료(무작위 샘플 10%) 위치
 
