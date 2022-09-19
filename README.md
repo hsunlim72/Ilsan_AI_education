@@ -20,8 +20,7 @@ cloud_directory = '/content/gdrive/MyDrive/sample_data/'  # 국민건강보험�
 
 os.listdir(cloud_directory)
 
-data = pd.read_csv('{}/data.csv'.format(cloud_directory),keep_default_na = False, encoding='cp949')
-
+T20 = pd.read_csv('{}/nhid_gy20_t1.csv'.format(cloud_directory),keep_default_na = False, encoding='cp949')
 
 관련 자료 준비되는대로 올려주시면 검토하겠습니다.
 학생 시선으로 맥락성을 유지할 수 있도록 교육 내용은 다를지라도 동일한 자료로 실습 진행 등 검토하겠습니다.
